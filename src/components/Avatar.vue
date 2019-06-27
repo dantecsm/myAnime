@@ -12,7 +12,7 @@
 <script>
   import auth from '@/api/auth.js'
 
-  const DEFAULT_AVATAR = 'https://i.bmp.ovh/imgs/2019/05/2660bf1d3c6530f7.jpg'
+  const DEFAULT_AVATAR = 'https://www.mmgal.com/wp-content/uploads/2015/12/2015121908514728.jpg'
 
   export default {
     name: "Avatar",
@@ -123,7 +123,7 @@
         top: -10%;
         width: 120%;
         height: 120%;
-        cursor: url("../assets/cursor/mouse2.png"), url("../assets/cursor/mouse2.png"), auto;
+        cursor: url("https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur"), url("https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur"), auto;
         opacity: 0;
       }
 

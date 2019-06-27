@@ -5,7 +5,7 @@
       <section class="page">
         <router-view/>
       </section>
-      <section class="backgound">
+      <section class="background">
         <SlideShow></SlideShow>
       </section>
     </main>

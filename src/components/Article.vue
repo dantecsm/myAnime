@@ -367,6 +367,7 @@
           img {
             display: block;
             object-fit: cover;
+            transition-duration: .2s !important;
             @media screen and (max-width: 1280px) {
               width: 75vw;
               height: 50vw;
@@ -385,7 +386,7 @@
       .article {
         background-color: #dff0d8;
         color: #468847;
-        font-size: 14px;
+        font-size: 12px;
         padding: 1em 1.5em;
         border-radius: 4px;
         margin: .5em 0em 1.5em 0;
@@ -468,7 +469,7 @@
     .blogTags-wrapper {
       .tag {
         opacity: .7;
-        cursor: url("../assets/cursor/mouse2.png"), url("../assets/cursor/mouse2.png"), auto;
+        cursor: url("https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur"), url("https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur"), auto;
         color: #fff;
         font-size: 14px;
         padding: 2px 6px;
