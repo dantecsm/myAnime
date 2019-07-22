@@ -395,12 +395,12 @@
 
       .loading:after {
         z-index: 1;
-        -webkit-animation: gogoloader 2s infinite 1s;
+        -webkit-animation: gogoloader 1s infinite .5s;
       }
 
       .loading:before {
         z-index: 2;
-        -webkit-animation: gogoloader 2s infinite;
+        -webkit-animation: gogoloader 1s infinite;
       }
 
       @-webkit-keyframes gogoloader {
