@@ -30,7 +30,7 @@ export default {
   name: "SlideShow",
   data() {
     return {
-      imageArr: [p1, p2, p3, p4, p5, p6, p7],
+      imageArr: [],
       imageNextArr: [],
       deviceWidth: 1366
     }
@@ -42,6 +42,8 @@ export default {
   },
   created() {
   	this.deviceWidth = window.innerWidth
+
+    this.imageArr = [p1, p2, p3, p4, p5, p6].sort((a, b) => Math.random() - 0.5)
     // randomDb.fetchRandomSlides().then(res => {
     //   let urlArr = res.results.map(r => r.get('url'))
 
