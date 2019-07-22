@@ -258,7 +258,7 @@
         -webkit-animation: gogoloader 2s infinite;
       }
 
-      @-webkit-keyframes gogoloader {
+      @keyframes gogoloader {
         0% {
           -webkit-transform: scale(0);
           opacity: 0;

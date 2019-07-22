@@ -2,9 +2,7 @@
   <ul class="Posts">
     <template v-if="loading">
       <div class="loading-wrapper">
-        <div class="loading">
-          加载中
-        </div>
+        <div class="loading">加载中</div>
       </div>
     </template>
     <template v-if="!loading">
@@ -395,15 +393,15 @@
 
       .loading:after {
         z-index: 1;
-        -webkit-animation: gogoloader 1s infinite .5s;
+        -webkit-animation: gogoloader 2s infinite 1s;
       }
 
       .loading:before {
         z-index: 2;
-        -webkit-animation: gogoloader 1s infinite;
+        -webkit-animation: gogoloader 2s infinite;
       }
 
-      @-webkit-keyframes gogoloader {
+      @keyframes gogoloader {
         0% {
           -webkit-transform: scale(0);
           opacity: 0;
