@@ -4,7 +4,7 @@
     <div class="commentsLoading" v-if="loading"><i class="el-icon-loading"></i></div>
     <ul class="commentList" v-if="!loading">
       <li v-for="comment in comments"
-          :id="comment.id" class="comment-item" data-aos="zoom-out-right">
+          :id="comment.id" class="comment-item" data-aos="zoom-out-right" @mouseover="highlightComment">
         <article class="commentBody">
           <footer class="commentMeta">
             <div class="commentAuthor">
@@ -29,7 +29,7 @@
       >
       </el-pagination>
     </nav>
-    <!-- 这里最好改一下样式，改善多行文本输入 -->
+    <!-- todo: 这里修改一下样式，改善多行文本输入 -->
     <div class="commentCommit">
       <div class="commentBody">
         <div class="commentMeta"></div>
@@ -111,6 +111,9 @@
           article.setArticleViews({id: this.id})
         })
       },
+      highlightComment(e) {
+        Array.from(document.querySelectorAll('.comment-item')).map(el => el.classList.remove('active'))
+      },
       onSubmit(e) {
         if (!this.isLogin) {
           Message.error('请登录后再发表评论')
@@ -186,7 +189,7 @@
         margin: 10px 0;
         transition: all .3s ease-in-out;
 
-        &:hover {
+        &:hover,&.active {
           box-shadow: 0 0 50px #000;
 
           .commentBody {

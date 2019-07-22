@@ -28,6 +28,7 @@ export function scrollToComment() {
 
     if(el) {
       el.scrollIntoView({behavior: "smooth"})
+      el.classList.add("active")
     } else {
       requestAnimationFrame(scrollToComment)
     }
