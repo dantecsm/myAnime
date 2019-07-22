@@ -9,20 +9,23 @@
       <li v-for="post in posts" data-aos="flip-up">
         <div class="post-item">
           <div class="title-wrapper">
-            <router-link :to="`/detail/${post.id}`"><h1 class="title">{{post.title}}</h1></router-link>
+            <router-link target="_blank" :to="`/detail/${post.id}`"><h1 class="title">{{post.title}}</h1></router-link>
           </div>
           <div class="date">{{post.createdAt.getMonth()+1}}月<b>{{post.createdAt.getDate()}}</b></div>
           <ul class="tags">
-            <li class="tag" v-if="post.tags && post.tags.length"><i class="el-icon-collection-tag"></i>{{post.tags.toString()}}</li>
+            <li class="tag" v-if="post.tags && post.tags.length"><i class="el-icon-collection-tag"></i>{{post.tags.toString()}}
+            </li>
             <li class="tag"><i class="el-icon-view"></i>{{post.views}}</li>
             <li class="tag"><i class="el-icon-chat-line-square"></i>{{post.comments}}</li>
           </ul>
           <div class="poster-wrapper">
-            <router-link tag="figure" :to="`/detail/${post.id}`" class="poster">
-              <img :src="post.cover">
-              <figcaption>
-                <div class="content">{{post.intro}}</div>
-              </figcaption>
+            <router-link target="_blank" :to="`/detail/${post.id}`">
+              <figure class="poster">
+                <img :src="post.cover">
+                <figcaption>
+                  <div class="content">{{post.intro}}</div>
+                </figcaption>
+              </figure>
             </router-link>
           </div>
         </div>
@@ -73,9 +76,9 @@
         let params = {page: this.page}
         let {tagName, categoryName, keyword} = this.$route.params
 
-        params['tag'] = tagName === undefined? '%%': decodeURIComponent(tagName)
-        params['category'] = categoryName === undefined? '': decodeURIComponent(categoryName)
-        params['search'] = keyword === undefined? '': decodeURIComponent(keyword)
+        params['tag'] = tagName === undefined ? '%%' : decodeURIComponent(tagName)
+        params['category'] = categoryName === undefined ? '' : decodeURIComponent(categoryName)
+        params['search'] = keyword === undefined ? '' : decodeURIComponent(keyword)
 
         posts.getArticles(params).then(res => {
           this.posts = res.results.map(r => {
@@ -108,8 +111,8 @@
     .el-pagination.is-background .el-pager li:not(.disabled):hover {
       color: #fff;
       border: 2px solid @bgActivePurple;
-	    background-color: @bgActivePurple;
-	    cursor: url('https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur'), url('https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur'), auto;
+      background-color: @bgActivePurple;
+      cursor: url('https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur'), url('https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur'), auto;
     }
 
     .el-pagination.is-background .el-pager li {
@@ -352,9 +355,11 @@
         }
       }
     }
+
     .pagination-wrapper {
       text-align: right;
     }
+
     .loading-wrapper {
       height: 500px;
       display: flex;

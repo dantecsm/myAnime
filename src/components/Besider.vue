@@ -48,9 +48,11 @@
         <div class="panelContent">
           <ul class="listGroup">
             <template v-for="comment in comments">
-              <router-link tag="li" :to="`/detail/${comment.articleId}#${comment.id}`" class="listGroupItem">
-                <img :src="comment.avatar">
-                <span class="text commentLog"> {{comment.content}} </span>
+              <router-link target="_balnk" :to="`/detail/${comment.articleId}#${comment.id}`">
+                <li class="listGroupItem">
+                  <img :src="comment.avatar">
+                  <span class="text commentLog"> {{comment.content}} </span>
+                </li>
               </router-link>
             </template>
           </ul>
@@ -68,9 +70,11 @@
         <div class="panelContent">
           <ul class="listGroup">
             <template v-for="post in posts">
-              <router-link tag='li' :to="`/detail/${post.id}`" class="listGroupItem">
-                <span class="text title">{{post.title}}</span>
-                <span class="tag"> {{post.views}} ℃ </span>
+              <router-link target="_blank" :to="`/detail/${post.id}`">
+                <li class="listGroupItem">
+                  <span class="text title">{{post.title}}</span>
+                  <span class="tag"> {{post.views}} ℃ </span>
+                </li>
               </router-link>
             </template>
           </ul>
