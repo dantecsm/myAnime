@@ -48,7 +48,7 @@
         <div class="panelContent">
           <ul class="listGroup">
             <template v-for="comment in comments">
-              <router-link target="_balnk" :to="`/detail/${comment.articleId}#${comment.id}`">
+              <router-link target="_blank" :to="`/detail/${comment.articleId}#${comment.id}`">
                 <li class="listGroupItem">
                   <img :src="comment.avatar">
                   <span class="text commentLog"> {{comment.content}} </span>
