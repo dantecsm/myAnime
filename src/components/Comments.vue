@@ -49,7 +49,7 @@
   import {Message} from 'element-ui'
   import specialArticle from '@/assets/specialArticle'
 
-  const DEFAULT_AVATAR = 'https://www.mmgal.com/wp-content/uploads/2015/12/2015121908514728.jpg'
+  const DEFAULT_AVATAR = '../../static/avatar.jpg'
 
   export default {
     name: "Comments",

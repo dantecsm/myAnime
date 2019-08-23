@@ -92,7 +92,7 @@
   import Avatar from '@/components/Avatar'
   import randomDb from '@/api/randomDb.js'
 
-  const DEFAULT_AVATAR = 'https://www.mmgal.com/wp-content/uploads/2015/12/2015121908514728.jpg'
+  const DEFAULT_AVATAR = '../../static/avatar.jpg'
 
   export default {
     name: "Besider",
@@ -339,7 +339,7 @@
                 width: 80%;
                 color: #666;
                 font-size: 12px;
-                cursor: url('https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur'), url('https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur'), auto;
+                cursor: url('../assets/cursor/mouse2.png'), url('../assets/cursor/mouse2.png'), auto;
               }
 
               .title {
@@ -423,7 +423,7 @@
       .floatPanel.articleList {
         .listGroupItem {
           background-color: rgba(230, 238, 232, .3);
-          cursor: url('https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur'), url('https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur'), auto;
+          cursor: url('../assets/cursor/mouse2.png'), url('../assets/cursor/mouse2.png'), auto;
         }
       }
     }

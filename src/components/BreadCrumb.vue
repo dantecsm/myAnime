@@ -90,7 +90,7 @@
       .el-breadcrumb__inner {
         color: rgb(210, 50, 45);
       }
-      cursor: url("https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur"), url("https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur"), auto;
+      cursor: url("../assets/cursor/mouse2.png"), url("../assets/cursor/mouse2.png"), auto;
     }
 
     @media screen and (max-width: 1280px) {

@@ -469,7 +469,7 @@
     .blogTags-wrapper {
       .tag {
         opacity: .7;
-        cursor: url("https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur"), url("https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur"), auto;
+        cursor: url("../assets/cursor/mouse2.png"), url("../assets/cursor/mouse2.png"), auto;
         color: #fff;
         font-size: 14px;
         padding: 2px 6px;

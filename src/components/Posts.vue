@@ -112,7 +112,7 @@
       color: #fff;
       border: 2px solid @bgActivePurple;
       background-color: @bgActivePurple;
-      cursor: url('https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur'), url('https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur'), auto;
+      cursor: url('../assets/cursor/mouse2.png'), url('../assets/cursor/mouse2.png'), auto;
     }
 
     .el-pagination.is-background .el-pager li {
@@ -234,7 +234,7 @@
           width: 680px;
           height: 382px;
           overflow: hidden;
-          cursor: url("https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur"), url("https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur"), auto;
+          cursor: url("../assets/cursor/mouse2.png"), url("../assets/cursor/mouse2.png"), auto;
 
           @media screen and (max-width: 1280px) {
             width: 75vw;

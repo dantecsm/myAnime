@@ -147,7 +147,7 @@ export default {
       padding: 0 15px;
       align-self: center;
       text-align: center;
-      cursor: url("https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur"), url("https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur"), auto;
+      cursor: url("../assets/cursor/mouse2.png"), url("../assets/cursor/mouse2.png"), auto;
 
       @media screen and (max-width: 1280px) {
         align-self: unset;
@@ -208,7 +208,7 @@ export default {
           align-items: center;
           padding: 0 1.2em;
           transition: all .2s ease-in-out;
-          cursor: url("https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur"), url("https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur"), auto;
+          cursor: url("../assets/cursor/mouse2.png"), url("../assets/cursor/mouse2.png"), auto;
 
           @media screen and (max-width: 1280px) {
             width: 100%;
@@ -231,7 +231,7 @@ export default {
         .hasChildren {
           position: relative;
           z-index: 100;
-          cursor: url("https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur"), url("https://www.mmgal.com/wp-content/themes/mygalgame/ui/images/mouse2.cur"), auto;
+          cursor: url("../assets/cursor/mouse2.png"), url("../assets/cursor/mouse2.png"), auto;
           display: flex;
           align-items: center;
           min-height: 54px;
