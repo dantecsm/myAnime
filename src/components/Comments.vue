@@ -49,7 +49,7 @@
   import {Message} from 'element-ui'
   import specialArticle from '@/assets/specialArticle'
 
-  const DEFAULT_AVATAR = '../../static/avatar.jpg'
+  const DEFAULT_AVATAR = 'http://qn.simenchan.xyz/avatar.jpg'
 
   export default {
     name: "Comments",

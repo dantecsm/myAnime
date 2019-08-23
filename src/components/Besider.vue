@@ -92,7 +92,7 @@
   import Avatar from '@/components/Avatar'
   import randomDb from '@/api/randomDb.js'
 
-  const DEFAULT_AVATAR = '../../static/avatar.jpg'
+  const DEFAULT_AVATAR = 'http://qn.simenchan.xyz/avatar.jpg'
 
   export default {
     name: "Besider",

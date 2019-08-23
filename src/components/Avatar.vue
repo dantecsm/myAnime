@@ -12,7 +12,7 @@
 <script>
   import auth from '@/api/auth.js'
 
-  const DEFAULT_AVATAR = '../../static/avatar.jpg'
+  const DEFAULT_AVATAR = 'http://qn.simenchan.xyz/avatar.jpg'
 
   export default {
     name: "Avatar",
