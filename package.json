@@ -12,7 +12,7 @@
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
     "build": "node build/build.js",
-    "upload": "npm run build; cd dist; git init; git add .; git commit -am \"init\"; git remote add origin git@github.com:dantecsm/blog-client.git; git push -f origin master"
+    "upload": "npm run build; cd dist; git init; git add .; git commit -am \"init\"; git remote add origin git@github.com:dantecsm/myAnime.git; git push -f origin master"
   },
   "dependencies": {
     "aos": "^2.3.4",
