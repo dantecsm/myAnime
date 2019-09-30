@@ -47,7 +47,7 @@
     bottom: 30px;
     transition: all .3s ease-in-out;
 
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 800px) {
       transform: scale(.75);
       right: 15px;
       bottom: 15px;

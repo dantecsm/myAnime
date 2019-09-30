@@ -221,7 +221,7 @@
       &:first-child {
         margin-bottom: 50px;
 
-        @media screen and (max-width: 1280px) {
+        @media screen and (max-width: 800px) {
           margin-bottom: 25px;
         }
       }
@@ -253,7 +253,7 @@
         transition: all .5s ease-in-out;
         margin-bottom: 50px;
 
-        @media screen and (max-width: 1280px) {
+        @media screen and (max-width: 800px) {
           margin-bottom: 25px;
         }
 
@@ -395,7 +395,7 @@
             font-size: 16px;
             padding: .5em 1.5em 1em;
 
-            @media screen and (max-width: 1280px) {
+            @media screen and (max-width: 800px) {
               font-size: 12px;
             }
           }

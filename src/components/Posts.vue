@@ -140,7 +140,7 @@
         transition-timing-function: cubic-bezier(.175, .885, .32, .1 .275);
         border-radius: 10px;
 
-        @media screen and (max-width: 1280px) {
+        @media screen and (max-width: 800px) {
           padding: 10px;
         }
 
@@ -164,7 +164,7 @@
             line-height: 1.5;
             border-radius: 5px;
 
-            @media screen and (max-width: 1280px) {
+            @media screen and (max-width: 800px) {
               font-size: 15px;
             }
 
@@ -189,7 +189,7 @@
           margin: 20px 0;
           text-align: center;
 
-          @media screen and (max-width: 1280px) {
+          @media screen and (max-width: 800px) {
             margin: 10px 0;
           }
 
@@ -216,7 +216,7 @@
           border-radius: 10px;
           box-shadow: 0 0 8px #000;
 
-          @media screen and (max-width: 1280px) {
+          @media screen and (max-width: 800px) {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -236,7 +236,7 @@
           overflow: hidden;
           cursor: url("../assets/cursor/mouse2.png"), url("../assets/cursor/mouse2.png"), auto;
 
-          @media screen and (max-width: 1280px) {
+          @media screen and (max-width: 800px) {
             width: 75vw;
             height: 120vw;
           }
@@ -246,7 +246,7 @@
             height: 100%;
             object-fit: cover;
 
-            @media screen and (max-width: 1280px) {
+            @media screen and (max-width: 800px) {
               height: 50%;
             }
           }
@@ -268,7 +268,7 @@
             opacity: 0;
             transform: scale(4);
 
-            @media screen and (max-width: 1280px) {
+            @media screen and (max-width: 800px) {
               position: relative;
               opacity: 1;
               transform: scale(1);
@@ -298,7 +298,7 @@
             transform: scale(1.2);
             transition: all .4s linear;
 
-            @media screen and (max-width: 1280px) {
+            @media screen and (max-width: 800px) {
               transform: scale(1);
             }
           }
@@ -324,7 +324,7 @@
           align-items: center;
           font-size: 13px;
 
-          @media screen and (max-width: 1280px) {
+          @media screen and (max-width: 800px) {
             position: relative;
             display: block;
             color: @bgDark;
@@ -346,7 +346,7 @@
             display: block;
             font-size: 30px;
 
-            @media screen and (max-width: 1280px) {
+            @media screen and (max-width: 800px) {
               display: unset;
               font-size: unset;
               font-weight: unset;

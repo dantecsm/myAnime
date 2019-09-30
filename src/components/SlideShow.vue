@@ -130,7 +130,7 @@ export default {
     opacity: 1;
   }
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 800px) {
   .mask {
     position: fixed;
     width: 100%;

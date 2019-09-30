@@ -246,7 +246,7 @@
                 object-fit: cover;
                 transition: all .4s ease-out;
 
-                @media screen and (max-width: 1280px) {
+                @media screen and (max-width: 800px) {
                   width: 40px;
                   height: 40px;
                   left: -10px;

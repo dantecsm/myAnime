@@ -104,7 +104,7 @@ export default {
     color: #fff;
     user-select: none;
 
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 800px) {
       position: relative;
       width: 100vw;
       height: 56px;
@@ -149,7 +149,7 @@ export default {
       text-align: center;
       cursor: url("../assets/cursor/mouse2.png"), url("../assets/cursor/mouse2.png"), auto;
 
-      @media screen and (max-width: 1280px) {
+      @media screen and (max-width: 800px) {
         align-self: unset;
       }
 
@@ -165,7 +165,7 @@ export default {
     .nav-trigger {
       display: none;
 
-      @media screen and (max-width: 1280px) {
+      @media screen and (max-width: 800px) {
         display: block;
         position: absolute;
         padding: 15px 0;
@@ -179,7 +179,7 @@ export default {
       padding-left: 20px;
       font-size: 14px;
 
-      @media screen and (max-width: 1280px) {
+      @media screen and (max-width: 800px) {
         transition: all .2s ease-in-out;
         opacity: 0;
         position: absolute;
@@ -196,7 +196,7 @@ export default {
         height: 100%;
         align-items: center;
 
-        @media screen and (max-width: 1280px) {
+        @media screen and (max-width: 800px) {
           flex-direction: column;
         }
         >li {
@@ -210,7 +210,7 @@ export default {
           transition: all .2s ease-in-out;
           cursor: url("../assets/cursor/mouse2.png"), url("../assets/cursor/mouse2.png"), auto;
 
-          @media screen and (max-width: 1280px) {
+          @media screen and (max-width: 800px) {
             width: 100%;
 
             &.minvisible {
@@ -264,7 +264,7 @@ export default {
             border: 1px solid rgba(0, 0, 0, .15);
             box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 
-            @media screen and (max-width: 1280px) {
+            @media screen and (max-width: 800px) {
               display: none !important;
             }
 
