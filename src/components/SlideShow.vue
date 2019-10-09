@@ -18,13 +18,13 @@
 
 <script>
 import randomDb from '@/api/randomDb.js'
-import p1 from '@/assets/image/1.jpg'
-import p2 from '@/assets/image/2.jpg'
-import p3 from '@/assets/image/3.jpg'
-import p4 from '@/assets/image/4.jpg'
-import p5 from '@/assets/image/5.jpg'
-import p6 from '@/assets/image/6.jpg'
-import p7 from '@/assets/image/7.jpg'
+const p1 = 'http://qn.simenchan.xyz/bg1.jpg'
+const p2 = 'http://qn.simenchan.xyz/bg2.jpg'
+const p3 = 'http://qn.simenchan.xyz/bg3.jpg'
+const p4 = 'http://qn.simenchan.xyz/bg4.jpg'
+const p5 = 'http://qn.simenchan.xyz/bg5.jpg'
+const p6 = 'http://qn.simenchan.xyz/bg6.jpg'
+const p7 = 'http://qn.simenchan.xyz/bg7.jpg'
 
 export default {
   name: "SlideShow",
